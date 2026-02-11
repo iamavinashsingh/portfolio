@@ -1,6 +1,6 @@
 # Hi there, I'm Avinash Singh
 
-### Full Stack Developer | GenAI Enthusiast | Competitive Programmer
+### Full Stack Developer | GenAI Enthusiast 
 
 I am a final-year student at **HBTU**, deeply passionate about building AI-driven applications and scalable web solutions. I love turning complex problems into clean, efficient code.
 
