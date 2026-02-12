@@ -6,10 +6,15 @@ import ProjectDetailsPage from './pages/ProjectDetailsPage'
 import NotFoundPage from './pages/NotFoundPage'
 import Layout from './components/layout/Layout'
 
+
+
 function App() {
+
+ 
+
   return (
-    <>
-    
+    <>          
+
     <Routes>
       <Route path='/' element={ <Layout /> }>  
         <Route index element={<Home />} />      

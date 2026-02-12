@@ -12,6 +12,4 @@ html::-webkit-scrollbar {
 
 body {
   font-family: var(--font-family-sans);
-  background: black;
-
 }
