@@ -1,11 +1,18 @@
 import React from 'react'
+import Hero from '../components/home/Hero'
+import ProjectList from '../components/home/ProjectList'
+import Skills from '../components/home/Skills'
+import Timeline from '../components/home/Timeline'
+import About from '../components/home/About'
 
 const Home = () => {
   return (
-    <div>
-      <h1 className='text-6xl  text-red-500 italic uppercase'>Hemlo Avi</h1>
-      <h1 className='text-6xl  text-red-500 font-bold uppercase'>Hemlo Avi</h1>
-      <h2 className='text-6xl  text-pink-500 font-extralight uppercase'>Hemlo Avi</h2>
+    <div className='h-screen'>
+      <Hero />
+      <ProjectList />
+      <Skills />
+      <Timeline />
+      <About  />
     </div>
   )
 }

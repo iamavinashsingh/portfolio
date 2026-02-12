@@ -1,11 +1,11 @@
 import React from 'react'
 
-const About = () => {
+const NavbarScreen = () => {
   return (
     <div className='h-screen bg-black flex items-center justify-center'>
-      <h1 className='text-8xl font-bold text-white'>ABOUT</h1>
+      <h1 className='text-white text-8xl font-bold'>Navbar Screen</h1>
     </div>
   )
 }
 
-export default About
+export default NavbarScreen

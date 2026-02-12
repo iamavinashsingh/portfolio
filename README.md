@@ -6,7 +6,7 @@ I am a final-year student at **HBTU**, deeply passionate about building AI-drive
 
 ## Project Folder Structure
 
-```
+```text
 my-portfolio/
 ├── public/                  # Static assets that don't need compilation
 │   ├── images/              # Project screenshots, etc. (kritiq.jpg, cabzy.png)
@@ -72,8 +72,6 @@ my-portfolio/
 │
 ├── .gitignore
 ├── package.json
-├── postcss.config.js
-├── tailwind.config.js       # Theme configuration (Colors, Fonts)
 └── vite.config.js
 
 ```

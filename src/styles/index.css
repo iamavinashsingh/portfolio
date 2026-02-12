@@ -3,9 +3,15 @@
 
 @theme {
   --font-family-sans:"general-sans";
+  --color-heading : #A3A3A3;
+}
+
+html::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
 }
 
 body {
   font-family: var(--font-family-sans);
   background: black;
+
 }
