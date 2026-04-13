@@ -1,0 +1,108 @@
+/* ------------------------------------------------ */
+/* REVEAL ANIMATION                                 */
+/* ------------------------------------------------ */
+.reveal-up {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: revealUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes revealUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-500 { animation-delay: 500ms; }
+.delay-700 { animation-delay: 700ms; }
+
+/* ------------------------------------------------ */
+/* ARROW HOVER EFFECT                               */
+/* ------------------------------------------------ */
+.arrow-hover:hover .arrow-icon {
+  transform: translate(4px, -4px);
+}
+.arrow-icon {
+  transition: transform 0.3s ease;
+}
+
+/* ------------------------------------------------ */
+/* BRUTALIST TYPOGRAPHY                             */
+/* ------------------------------------------------ */
+.brutalist-text {
+  line-height: 0.85;
+}
+
+/* ------------------------------------------------ */
+/* PROJECT IMAGE REVEAL                             */
+/* ------------------------------------------------ */
+.project-item:hover .project-image-reveal {
+  opacity: 1;
+  transform: scale(1) translate(-50%, -50%);
+}
+
+.project-image-reveal {
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ------------------------------------------------ */
+/* SKILL STRIP EXPAND                               */
+/* ------------------------------------------------ */
+.skill-strip {
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.skill-strip:hover {
+  flex-grow: 2;
+  background-color: #f5f5f5;
+  color: #000000;
+}
+
+/* ------------------------------------------------ */
+/* GRID OVERLAY                                     */
+/* ------------------------------------------------ */
+.grid-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.1;
+}
+
+.grid-overlay .grid-line {
+  height: 100%;
+  width: 1px;
+  background: #f5f5f5;
+}
+
+/* ------------------------------------------------ */
+/* HUGE TEXT (footer CTA)                           */
+/* ------------------------------------------------ */
+.text-huge {
+  font-size: 14vw;
+}
+
+/* ------------------------------------------------ */
+/* TIMELINE DOT                                     */
+/* ------------------------------------------------ */
+.timeline-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  z-index: 10;
+}
